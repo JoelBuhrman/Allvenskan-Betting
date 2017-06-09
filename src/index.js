@@ -12,6 +12,6 @@ render(
   <Provider>
     <Router history={browserHistory} routes={routes} />
   </Provider>,
-
+ //Miniändring för att testa git
   document.getElementById('app')
 );
