@@ -1,0 +1,199 @@
+#app {
+  height: 100%;
+  position: relative;
+}
+
+html, body {
+  height: 100%;
+  background: url("https://68.media.tumblr.com/5c74d588a59b0a680f6517edc9a85610/tumblr_nebbveWxtB1u2xghmo1_1280.jpg");
+  background-size: cover;
+  text-align: center;
+  position: relative;
+}
+
+.container-fluid.noPadding {
+  height: 100%;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.container-fluid.navContainer {
+  height: 100%;
+}
+
+.navbar {
+  height: 70px;
+}
+
+.navbar-header {
+  height: 100%;
+}
+
+.nav.navbar-nav {
+  height: 100%;
+}
+
+li.navLi {
+  height: 100%;
+}
+
+li.active{
+  background-color: black;
+}
+.navbar-brand{
+  color: white;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.6);
+  margin-top: 80px;
+  border-radius: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.container.smaller {
+  width: 50%;
+}
+
+.customTextMedium {
+  font-size: 40px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+}
+
+.myCustomButton {
+  height: 80px;
+  width: 200px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 20px;
+  border-width: 10px;
+  border-color: white;
+  font-size: 40px;
+  font-weight: bold;
+  color: #ffffff;
+  align-self: center;
+  margin-top: 20px;
+}
+
+.inputGroup {
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+.customInput {
+  height: 70px;
+  width: 100%;
+  border-width: 10px;
+  border-color: white;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.4);
+  font-size: 40px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  /* display: none; <- Crashes Chrome on hover */
+  -webkit-appearance: none;
+  margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+.customImage {
+  width: 100px;
+  height: auto;
+
+}
+
+.smallWhiteText {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.active {
+  background-color: #5f5c86;
+  height: 3px;
+  border-radius: 2px;
+}
+
+.loginAndRegisterBackground {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 5px;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 300px;
+  position: relative;
+}
+
+.centerParent {
+  position: relative;
+  height: 100%;
+}
+
+.centerChild {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centerChildVertically {
+  position: absolute;
+  top: 50%;
+  transform: translate(0%, -50%);
+}
+
+.form-group {
+  text-align: left;
+}
+
+.logInButton {
+  height: 50px;
+  width: 80%;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translate(-50%);
+  border-radius: 5px;
+  background-color: #5f5c86;
+  border-color: #5f5c86;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.myMargin {
+  margin-top: 50px;
+}
+
+.tableRow.white {
+  width: 100%;
+  height: 50px;
+  background-color: white;
+
+}
+
+.tableRow.gray {
+  width: 100%;
+  height: 50px;
+  background-color: #d6d6d6;
+}
+
+.tableRow.firstPos {
+  border-radius: 5px 5px 0px 0px;
+}
+
+.tableRow.lastPos {
+  border-radius: 0px 0px 5px 5px;
+}
+
